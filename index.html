@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Scrapbook for You</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="t.js" defer></script>
+</head>
+
+<body>
+
+    
+    <!-- BACKGROUND PHOTO SLIDESHOW -->
+    <div class="background-slideshow">
+        <div class="background-image active" style="background-image:url('img/img3.jpg')"></div>
+        <div class="background-image" style="background-image:url('img/img: 8px;.jpg')"></div>
+        <div class="background-image" style="background-image:url('img/img9.jpg')"></div>
+        <div class="background-image" style="background-image:url('img/img10.jpg')"></div>
+        <div class="background-image" style="background-image:url('img/img11.jpg')"></div>
+        <div class="background-image" style="background-image:url('img/img7.jpg')"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="topbar">
+        <a href="#home" class="brand">a little something ♡</a>
+
+        <button class="music-button" id="musicToggle">
+            <span class="music-icon">♫</span>
+            <span id="musicLabel">Play our soundtrack</span>
+        </button>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero section-wrap" id="home">
+
+            <div class="hero-text reveal">
+                <p class="eyebrow">A little corner of happiness</p>
+
+                <h1>
+                    Happy Birthday Chingu,
+                    <span>Beautiful Soul.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Today is all about celebrating you,
+                    the memories we've made, and all the
+                    little moments worth keeping.
+                </p>
+
+                <a href="#letter" class="main-button">
+                    Open your little surprise ↓
+                </a>
+            </div>
+
+            <!-- INDEPENDENT OPENING PHOTO -->
+            <div class="hero-art reveal">
+
+                <div class="sun-stamp">
+                    made<br>with love
+                </div>
+
+                <figure class="polaroid hero-photo">
+
+                    <!-- CHANGE THIS IMAGE INDEPENDENTLY -->
+                    <img src="img/img12.jpg"
+                         alt="A favourite photograph">
+
+                    <figcaption>
+                        one of my favourite moments
+                    </figcaption>
+
+                </figure>
+            </div>
+
+        </section>
+
+        <!-- INTRODUCTION -->
+        <section class="intro section-wrap reveal">
+
+            <p class="script-text">A little note for you...</p>
+
+            <h2>
+                Some people make ordinary days
+                <em>feel extraordinary.</em>
+            </h2>
+
+            <p>
+                And today, we get to celebrate one of those people.
+            </p>
+
+        </section>
+
+        <!-- PERSONAL LETTER -->
+        <section class="letter-section section-wrap" id="letter">
+
+            <div class="letter-card reveal">
+
+                <p class="eyebrow">01 — A letter from me</p>
+
+                <h2>A few words, <em>just for you Chingu.♡</em></h2>
+
+                <div class="letter-content">
+
+                    <p class="script-text">Dear Saisha,</p>
+
+                    <p>
+                        Happy Birthday Chingu! Now your a grown-up tube light
+                        who has made everyone laugh, worried and most 
+                        importently felt loved. 
+                    </p>
+
+                    <p>
+                        You have done so much in this past year that i had to make a 
+                        website to show your your photos and dont forget the song which in on the 
+                        top right.
+                        But i would ;ike to say that you are so special that i hade to make this for you ,
+                        ani 
+                        aarui kura ta Background Geet lay van cha hai Baby. 
+                    </p>
+
+                    <p>
+                        finally i would like to say 
+                    </p>
+
+
+                    <p class="script-text signature">
+                            Happy Birth day my Chingu.
+                                   your truly, pinku ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PHOTO GALLERY -->
+        <section class="gallery-section section-wrap" id="memories">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">02 — Little pieces of time</p>
+
+                <h2>
+                    Moments worth <em>keeping.</em>
+                </h2>
+
+                <p class="section-subtitle">
+                    A collection of memories, one photograph at a time.
+                </p>
+
+            </div>
+
+            <div class="gallery-slider reveal">
+
+                <button class="gallery-arrow gallery-prev"
+                        id="galleryPrev"
+                        aria-label="Previous photo">
+                    &#10094;
+                </button>
+
+                <div class="gallery-viewport" id="galleryViewport">
+
+                    <div class="gallery-track" id="galleryTrack">
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img1.jpg" alt="Memory one">
+                            <figcaption>the little things ♡</figcaption>
+                        </figure>
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img2.jpg" alt="Memory two">
+                            <figcaption>a moment to remember</figcaption>
+                        </figure>
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img5.jpg" alt="Memory three">
+                            <figcaption>one for the memories</figcaption>
+                        </figure>
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img4.jpg" alt="Memory four">
+                            <figcaption>little happy moments</figcaption>
+                        </figure>
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img3.jpg" alt="Memory five">
+                            <figcaption>something beautiful</figcaption>
+                        </figure>
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img6.jpg" alt="Memory six">
+                            <figcaption>and many more ♡</figcaption>
+                        </figure>
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img11.jpg" alt="Memory six">
+                            <figcaption>and many more ♡</figcaption>
+                        </figure>
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img8.jpg" alt="Memory six">
+                            <figcaption>and many more ♡</figcaption>
+                        </figure>
+
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img9.jpg" alt="Memory six">
+                            <figcaption>and many more ♡</figcaption>
+                        </figure> 
+                        
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img10.jpg" alt="Memory six">
+                            <figcaption>and many more ♡</figcaption>
+                        </figure>
+                        
+                        <figure class="polaroid gallery-slide">
+                            <img src="img/img7.jpg" alt="Memory six">
+                            <figcaption>and many more ♡</figcaption>
+                        </figure>                        
+
+                    </div>
+
+                </div>
+
+                <button class="gallery-arrow gallery-next"
+                        id="galleryNext"
+                        aria-label="Next photo">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <div class="gallery-dots" id="galleryDots"></div>
+
+            <p class="gallery-instruction">
+                ← Chingu →
+            </p>
+
+        </section>
+
+        <!-- BIRTHDAY WISH -->
+        <section class="wish-section section-wrap reveal">
+
+            <p class="script-text">One more thing...</p>
+
+            <h2>
+                May your year be filled with
+                <em>beautiful beginnings.</em>
+            </h2>
+
+            <p>
+                Heheh your the best and Happy Birthday
+                                Chingu.
+                                             
+            </p>
+
+            <div class="wish-decoration">♡ ✦ ♡</div>
+
+        </section>
+
+        <!-- HIDDEN SURPRISE -->
+        <section class="surprise-section section-wrap" id="surprise">
+
+            <div class="surprise-card reveal">
+
+                <p class="eyebrow">03 — One last surprise</p>
+
+                <h2>
+                    There's something
+                    <em>waiting for you.</em>
+                </h2>
+
+                <button class="main-button"
+                        id="surpriseButton">
+                    Click to reveal ♡
+                </button>
+
+                <div class="surprise-message" id="surpriseMessage">
+
+                    <p class="script-text">A little reminder...</p>
+
+                    <h3>
+                        <p>Gaurav loves you </p>
+                        <p>Chingu</p>
+                        <p>Budi vaise hi</p>
+                        <p>♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡</p>
+                        <p></p>  
+                    </h3>
+
+                    <p>
+                        Happy Birthday once again! Chingu
+                        Keep shining and keep smiling. ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>Made with love, just for you ♡</p>
+
+        <p class="footer-small">
+            A little scrapbook of beautiful moments of Saisha the Tubelight.
+        </p>
+
+    </footer>
+
+    <!-- BACKGROUND MUSIC -->
+    <audio id="backgroundMusic"
+           src="Meri Banogi Kya.mp3"
+           loop
+           preload="auto">
+    </audio>
+
+</body>
+</html>
